@@ -2,6 +2,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.visited-flag{
+  margin-left: 20px;
+}
+
+.visited-flag img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
 
 @media screen and (max-width:560px) {
   .countries{
